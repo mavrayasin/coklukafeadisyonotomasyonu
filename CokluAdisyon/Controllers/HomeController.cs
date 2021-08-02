@@ -11,6 +11,7 @@ namespace CokluAdisyon.Controllers
     {
         adisyondbEntities ent = new adisyondbEntities();
         public ActionResult Index()
+
         {
             kafelercls kc = new kafelercls();
             kc.kafelers = ent.Kafeler.ToList();

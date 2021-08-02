@@ -7,6 +7,7 @@ using CokluAdisyon.Models;
 namespace CokluAdisyon.Controllers
 {
 
+
     public class AdisyonController : Controller
     {
         adisyondbEntities ent = new adisyondbEntities();
